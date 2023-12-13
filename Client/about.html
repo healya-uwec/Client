@@ -8,8 +8,20 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><h1>Menu</h1></a>
-        <nav>
+        <div class="logo">
+            <img src="images/logo.png" alt="roomie recipes logo">
+        </div>
+        <div class="contact-info">
+            <h2>651-336-6609</h2>
+            <h2>roomie.recipes@gmail.com</h2>
+        </div>
+        <div class="hamburger" onclick="toggleNav()">
+            <hr>
+            <hr>
+            <hr>
+        </div>
+        <nav class="hamburger" onclick="toggleNav()">
+            <a href="index.html">Menu</a>
             <a href="about.html">About</a>
             <a href="subscription.html">Subscription</a>
             <a href="breakfast.html">Breakfast</a>
@@ -27,10 +39,12 @@
                 <h3>Address:</h3>
                 <p>726 Farwell Street, Eau Claire, WI, USA</p>
             </div>
-            <div class="Story">
+            <div class="story">
                 <h2>Our Story</h2>
                 <p>These recipes originated when I started cooking for my roommates and they wanted the recipes. Most of the time I just made everything by heart. Because of that, I started this cookbook. I made all kinds of recipes for them to follow. Focusing primarily on making everything super clear, so even the most inexperienced cooks can use this online cookbook!</p>
-                <img src="images/roomates.jpg" alt="roommates">
+            </div>
+            <div class="roommates">
+            <img src="images/roomates.jpg" alt="roommates">
             </div>
     </main>
     

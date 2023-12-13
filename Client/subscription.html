@@ -8,8 +8,20 @@
 </head>
 <body>
     <header>
-        <a href="index.html"><h1>Menu</h1></a>
-        <nav>
+        <div class="logo">
+            <img src="images/logo.png" alt="roomie recipes logo">
+        </div>
+        <div class="contact-info">
+            <h2>651-336-6609</h2>
+            <h2>roomie.recipes@gmail.com</h2>
+        </div>
+        <div class="hamburger" onclick="toggleNav()">
+            <hr>
+            <hr>
+            <hr>
+        </div>
+        <nav class="hamburger" onclick="toggleNav()">
+            <a href="index.html">Menu</a>
             <a href="about.html">About</a>
             <a href="subscription.html">Subscription</a>
             <a href="breakfast.html">Breakfast</a>
@@ -22,12 +34,29 @@
         <div class="services">
             <h2>Subscription Services</h2>
             <p>We offer multiple subscription services. We have a monthly bill of $5. Or you can sign up for a whole year by paying $55.</p>
-            <p>monthly subscription</p>
-            <p>yearly subscription</p>
+            <section class="contact" id="contact">
+                <form>
+                    <h3>Purchase Information</h3>
+                    <label for="name">Name</label>
+                    <input type="text" id="name">
+                    <label for="email">Email</label>
+                    <input type="email" id="email">
+                    <label for="card">Card Number</label>
+                    <input type="card" id="card">
+                    <label for="expiration">Expiration Date</label>
+                    <input type="expiration" id="expiration">
+                    <label for="security">Security Code</label>
+                    <input type="security" id="security">   
+                    <input type="submit" id="submit">
+                </form>
+            </section>
         </div>
         <div class="free">
             <h2>1 Free Month For New Users</h2>
-            <p>type email here...</p>
+            <form>
+            <textarea>Type message here...</textarea>
+            <input type="submit" id="submit">
+            </form>
         </div>
     </main>
     

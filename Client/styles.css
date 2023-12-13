@@ -1,0 +1,59 @@
+body { 
+    background-color: #83caf5 ;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0;
+}
+nav {
+    background-color: #d6f0fa;
+    text-align: center;
+    padding: 1.5rem;
+    margin: 1.5rem;
+}
+.roommates img{
+    width: 50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.chef img{ 
+    width: 40%;
+}
+nav a{
+    color: #e45226;
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:hover{
+    color: #f9c25d;
+}
+h2 {
+    color: #f9c25d;
+    text-align: center;
+    font-weight: 800;
+}
+h3 {
+    color:#e45226;
+    text-align: center;
+}
+.info, .story, .services, .free, .pancake, .chaffle, .muffin, .struesel, .pizza_bites, .pesto_mac, .chicken_ring, .shingle, .roast, .dolly, .famous, .buffalo, .parmesan, .steak_fries, .chocolate, .oatmeal{
+    background-color: #d6f0fa;
+    margin: 2rem;
+}
+.pancake img, .chaffle img, .muffin img, .struesel img, .pizza_bites img, .pesto_mac img, .chicken_ring img, .shingle img, .roast img, .dolly img, .famous img, .buffalo img, .parmesan img, .steak_fries img, .chocolate img, .oatmeal img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.contact-info>h2 {
+    color:#e45226;
+}
+.info, .story {
+    text-align: center;
+}
+.chef img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 1.5rem;
+}
