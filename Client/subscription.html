@@ -5,6 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Roomie Recipes</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+    <link rel="manifest" href="images/site.webmanifest">
+    <link rel="mask-icon" href="images/safari-pinned-tab.svg" color="#5bbad5">
+    <link rel="shortcut icon" href="images/favicon.ico">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-config" content="images/browserconfig.xml">
+    <meta name="theme-color" content="#ffffff">
 </head>
 <body>
     <header>
@@ -15,12 +24,7 @@
             <h2>651-336-6609</h2>
             <h2>roomie.recipes@gmail.com</h2>
         </div>
-        <div class="hamburger" onclick="toggleNav()">
-            <hr>
-            <hr>
-            <hr>
-        </div>
-        <nav class="hamburger" onclick="toggleNav()">
+        <nav>
             <a href="index.html">Menu</a>
             <a href="about.html">About</a>
             <a href="subscription.html">Subscription</a>
@@ -36,18 +40,23 @@
             <p>We offer multiple subscription services. We have a monthly bill of $5. Or you can sign up for a whole year by paying $55.</p>
             <section class="contact" id="contact">
                 <form>
-                    <h3>Purchase Information</h3>
-                    <label for="name">Name</label>
-                    <input type="text" id="name">
-                    <label for="email">Email</label>
-                    <input type="email" id="email">
-                    <label for="card">Card Number</label>
-                    <input type="card" id="card">
-                    <label for="expiration">Expiration Date</label>
-                    <input type="expiration" id="expiration">
-                    <label for="security">Security Code</label>
-                    <input type="security" id="security">   
-                    <input type="submit" id="submit">
+                    <h3>Purchase Information:</h3>
+                    <div>
+                    <label for="name">Name:</label>
+                    <input type="text" id="name"></div>
+                    <div>
+                    <label for="email">Email:</label>
+                    <input type="email" id="email"></div>
+                    <div>
+                    <label for="card">Card Number:</label>
+                    <input type="text" id="card"></div>
+                    <div>
+                    <label for="expiration">Expiration Date:</label>
+                    <input type="text" id="expiration"></div>
+                    <div>
+                    <label for="security">Security Code:</label>
+                    <input type="text" id="security"></div>
+                    <input type="submit"> 
                 </form>
             </section>
         </div>

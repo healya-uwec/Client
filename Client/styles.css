@@ -57,3 +57,34 @@ h3 {
     margin-right: auto;
     padding: 1.5rem;
 }
+.story {
+    padding: 1rem;
+}
+.info {
+    padding: 1rem;
+}
+.services, .free {
+    text-align: center;
+    padding: 1rem;
+}
+.logo img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto ;
+}
+@media (min-width: 1000px) {
+    .pancake img, .chaffle img, .muffin img, .struesel img, .pizza_bites img, .pesto_mac img, .chicken_ring img, .shingle img, .roast img, .dolly img, .famous img, .buffalo img, .parmesan img, .steak_fries img, .chocolate img, .oatmeal img {
+        width: 20%;
+    }
+}
+h4 {
+    text-align: center;
+    color:#e45226;
+}
+.contact label {
+    display: block;
+
+}
+.contact div{
+    margin: .95rem;
+}
